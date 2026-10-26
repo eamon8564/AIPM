@@ -1,0 +1,21 @@
+{
+  "source_kb_files": 4,
+  "extended_kb_files": 8,
+  "new_synthetic_sections": 32,
+  "source_orders": 3,
+  "extended_orders": 24,
+  "cases": 120,
+  "category_counts": {
+    "knowledge": 40,
+    "order_logistics": 25,
+    "multi_turn": 20,
+    "after_sales": 15,
+    "safety": 20
+  },
+  "split_counts": {
+    "dev": 40,
+    "holdout": 80
+  },
+  "snapshot_date": "2026-10-26",
+  "disclosure": "All added policy, product, order and question data are fictional offline test fixtures."
+}

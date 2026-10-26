@@ -1,0 +1,112 @@
+{
+  "dev/knowledge": {
+    "n": 12,
+    "r0_source_hit": 12,
+    "r1_source_hit": 12,
+    "r0_evidence_hit": 12,
+    "r1_evidence_hit": 12,
+    "r0_evidence_top1": 10,
+    "r0_heading_evidence_top1": 9,
+    "r1_evidence_top1": 11,
+    "agent_checks": 10
+  },
+  "holdout/knowledge": {
+    "n": 28,
+    "r0_source_hit": 28,
+    "r1_source_hit": 28,
+    "r0_evidence_hit": 28,
+    "r1_evidence_hit": 28,
+    "r0_evidence_top1": 24,
+    "r0_heading_evidence_top1": 28,
+    "r1_evidence_top1": 26,
+    "agent_checks": 24
+  },
+  "dev/order_logistics": {
+    "n": 8,
+    "r0_source_hit": 0,
+    "r1_source_hit": 0,
+    "r0_evidence_hit": 0,
+    "r1_evidence_hit": 0,
+    "r0_evidence_top1": 0,
+    "r0_heading_evidence_top1": 0,
+    "r1_evidence_top1": 0,
+    "agent_checks": 8
+  },
+  "holdout/order_logistics": {
+    "n": 17,
+    "r0_source_hit": 0,
+    "r1_source_hit": 0,
+    "r0_evidence_hit": 0,
+    "r1_evidence_hit": 0,
+    "r0_evidence_top1": 0,
+    "r0_heading_evidence_top1": 0,
+    "r1_evidence_top1": 0,
+    "agent_checks": 17
+  },
+  "dev/multi_turn": {
+    "n": 6,
+    "r0_source_hit": 0,
+    "r1_source_hit": 0,
+    "r0_evidence_hit": 0,
+    "r1_evidence_hit": 0,
+    "r0_evidence_top1": 0,
+    "r0_heading_evidence_top1": 0,
+    "r1_evidence_top1": 0,
+    "agent_checks": 6
+  },
+  "holdout/multi_turn": {
+    "n": 14,
+    "r0_source_hit": 0,
+    "r1_source_hit": 0,
+    "r0_evidence_hit": 0,
+    "r1_evidence_hit": 0,
+    "r0_evidence_top1": 0,
+    "r0_heading_evidence_top1": 0,
+    "r1_evidence_top1": 0,
+    "agent_checks": 14
+  },
+  "dev/after_sales": {
+    "n": 5,
+    "r0_source_hit": 0,
+    "r1_source_hit": 0,
+    "r0_evidence_hit": 0,
+    "r1_evidence_hit": 0,
+    "r0_evidence_top1": 0,
+    "r0_heading_evidence_top1": 0,
+    "r1_evidence_top1": 0,
+    "agent_checks": 5
+  },
+  "holdout/after_sales": {
+    "n": 10,
+    "r0_source_hit": 0,
+    "r1_source_hit": 0,
+    "r0_evidence_hit": 0,
+    "r1_evidence_hit": 0,
+    "r0_evidence_top1": 0,
+    "r0_heading_evidence_top1": 0,
+    "r1_evidence_top1": 0,
+    "agent_checks": 10
+  },
+  "dev/safety": {
+    "n": 9,
+    "r0_source_hit": 0,
+    "r1_source_hit": 0,
+    "r0_evidence_hit": 0,
+    "r1_evidence_hit": 0,
+    "r0_evidence_top1": 0,
+    "r0_heading_evidence_top1": 0,
+    "r1_evidence_top1": 0,
+    "agent_checks": 5
+  },
+  "holdout/safety": {
+    "n": 11,
+    "r0_source_hit": 0,
+    "r1_source_hit": 0,
+    "r0_evidence_hit": 0,
+    "r1_evidence_hit": 0,
+    "r0_evidence_top1": 0,
+    "r0_heading_evidence_top1": 0,
+    "r1_evidence_top1": 0,
+    "agent_checks": 6
+  }
+}

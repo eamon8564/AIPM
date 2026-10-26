@@ -1,0 +1,358 @@
+{
+  "snapshot_date": "2026-10-26",
+  "orders": [
+    {
+      "order_id": "ORD1001",
+      "product": "轻风蓝牙耳机",
+      "amount": 299,
+      "status": "已发货",
+      "customised": false,
+      "logistics": {
+        "carrier": "顺丰速运",
+        "tracking_no": "SF-DEMO-1001",
+        "latest_event": "包裹已从武汉转运中心发出",
+        "estimated_delivery": "2026-10-28"
+      },
+      "owner_id": "USER1"
+    },
+    {
+      "order_id": "ORD1002",
+      "product": "云朵棉毛巾",
+      "amount": 59,
+      "status": "已签收",
+      "delivered_at": "2026-10-22",
+      "customised": false,
+      "logistics": {
+        "carrier": "中通快递",
+        "tracking_no": "ZT-DEMO-1002",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "owner_id": "USER2"
+    },
+    {
+      "order_id": "ORD1003",
+      "product": "晨光保温杯（定制刻字）",
+      "amount": 149,
+      "status": "已签收",
+      "delivered_at": "2026-10-23",
+      "customised": true,
+      "logistics": {
+        "carrier": "京东物流",
+        "tracking_no": "JD-DEMO-1003",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "owner_id": "USER3"
+    },
+    {
+      "order_id": "ORD1004",
+      "owner_id": "USER1",
+      "product": "晴川阅读灯",
+      "amount": 89,
+      "status": "已发货",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1004",
+        "latest_event": "包裹已从成都分拨中心发出",
+        "estimated_delivery": "2026-10-28"
+      }
+    },
+    {
+      "order_id": "ORD1005",
+      "owner_id": "USER2",
+      "product": "青禾便携水杯",
+      "amount": 69,
+      "status": "已签收",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1005",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-23"
+    },
+    {
+      "order_id": "ORD1006",
+      "owner_id": "USER3",
+      "product": "云朵棉毛巾",
+      "amount": 59,
+      "status": "已签收",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1006",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-10"
+    },
+    {
+      "order_id": "ORD1007",
+      "owner_id": "USER4",
+      "product": "晨光保温杯（定制刻字）",
+      "amount": 149,
+      "status": "已签收",
+      "customised": true,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1007",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-23"
+    },
+    {
+      "order_id": "ORD1008",
+      "owner_id": "USER1",
+      "product": "晴川阅读灯",
+      "amount": 89,
+      "status": "已发货",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1008",
+        "latest_event": "包裹已从成都分拨中心发出",
+        "estimated_delivery": "2026-10-28"
+      }
+    },
+    {
+      "order_id": "ORD1009",
+      "owner_id": "USER2",
+      "product": "青禾便携水杯",
+      "amount": 69,
+      "status": "已签收",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1009",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-23"
+    },
+    {
+      "order_id": "ORD1010",
+      "owner_id": "USER3",
+      "product": "云朵棉毛巾",
+      "amount": 59,
+      "status": "已签收",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1010",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-10"
+    },
+    {
+      "order_id": "ORD1011",
+      "owner_id": "USER4",
+      "product": "晨光保温杯（定制刻字）",
+      "amount": 149,
+      "status": "已签收",
+      "customised": true,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1011",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-23"
+    },
+    {
+      "order_id": "ORD1012",
+      "owner_id": "USER1",
+      "product": "晴川阅读灯",
+      "amount": 89,
+      "status": "已发货",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1012",
+        "latest_event": "包裹已从成都分拨中心发出",
+        "estimated_delivery": "2026-10-28"
+      }
+    },
+    {
+      "order_id": "ORD1013",
+      "owner_id": "USER2",
+      "product": "青禾便携水杯",
+      "amount": 69,
+      "status": "已签收",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1013",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-23"
+    },
+    {
+      "order_id": "ORD1014",
+      "owner_id": "USER3",
+      "product": "云朵棉毛巾",
+      "amount": 59,
+      "status": "已签收",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1014",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-10"
+    },
+    {
+      "order_id": "ORD1015",
+      "owner_id": "USER4",
+      "product": "晨光保温杯（定制刻字）",
+      "amount": 149,
+      "status": "已签收",
+      "customised": true,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1015",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-23"
+    },
+    {
+      "order_id": "ORD1016",
+      "owner_id": "USER1",
+      "product": "晴川阅读灯",
+      "amount": 89,
+      "status": "已发货",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1016",
+        "latest_event": "包裹已从成都分拨中心发出",
+        "estimated_delivery": "2026-10-28"
+      }
+    },
+    {
+      "order_id": "ORD1017",
+      "owner_id": "USER2",
+      "product": "青禾便携水杯",
+      "amount": 69,
+      "status": "已签收",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1017",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-23"
+    },
+    {
+      "order_id": "ORD1018",
+      "owner_id": "USER3",
+      "product": "云朵棉毛巾",
+      "amount": 59,
+      "status": "已签收",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1018",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-10"
+    },
+    {
+      "order_id": "ORD1019",
+      "owner_id": "USER4",
+      "product": "晨光保温杯（定制刻字）",
+      "amount": 149,
+      "status": "已签收",
+      "customised": true,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1019",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-23"
+    },
+    {
+      "order_id": "ORD1020",
+      "owner_id": "USER1",
+      "product": "晴川阅读灯",
+      "amount": 89,
+      "status": "已发货",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1020",
+        "latest_event": "包裹已从成都分拨中心发出",
+        "estimated_delivery": "2026-10-28"
+      }
+    },
+    {
+      "order_id": "ORD1021",
+      "owner_id": "USER2",
+      "product": "青禾便携水杯",
+      "amount": 69,
+      "status": "已签收",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1021",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-23"
+    },
+    {
+      "order_id": "ORD1022",
+      "owner_id": "USER3",
+      "product": "云朵棉毛巾",
+      "amount": 59,
+      "status": "已签收",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1022",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-10"
+    },
+    {
+      "order_id": "ORD1023",
+      "owner_id": "USER4",
+      "product": "晨光保温杯（定制刻字）",
+      "amount": 149,
+      "status": "已签收",
+      "customised": true,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1023",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      },
+      "delivered_at": "2026-10-23"
+    },
+    {
+      "order_id": "ORD1024",
+      "owner_id": "USER1",
+      "product": "晴川阅读灯",
+      "amount": 89,
+      "status": "已发货",
+      "customised": false,
+      "logistics": {
+        "carrier": "模拟快递",
+        "tracking_no": "DEMO-1024",
+        "latest_event": "包裹已从成都分拨中心发出",
+        "estimated_delivery": "2026-10-28"
+      }
+    }
+  ]
+}

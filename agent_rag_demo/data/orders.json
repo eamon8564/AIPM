@@ -1,0 +1,46 @@
+{
+  "snapshot_date": "2026-10-26",
+  "orders": [
+    {
+      "order_id": "ORD1001",
+      "product": "轻风蓝牙耳机",
+      "amount": 299,
+      "status": "已发货",
+      "customised": false,
+      "logistics": {
+        "carrier": "顺丰速运",
+        "tracking_no": "SF-DEMO-1001",
+        "latest_event": "包裹已从武汉转运中心发出",
+        "estimated_delivery": "2026-10-28"
+      }
+    },
+    {
+      "order_id": "ORD1002",
+      "product": "云朵棉毛巾",
+      "amount": 59,
+      "status": "已签收",
+      "delivered_at": "2026-10-22",
+      "customised": false,
+      "logistics": {
+        "carrier": "中通快递",
+        "tracking_no": "ZT-DEMO-1002",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      }
+    },
+    {
+      "order_id": "ORD1003",
+      "product": "晨光保温杯（定制刻字）",
+      "amount": 149,
+      "status": "已签收",
+      "delivered_at": "2026-10-23",
+      "customised": true,
+      "logistics": {
+        "carrier": "京东物流",
+        "tracking_no": "JD-DEMO-1003",
+        "latest_event": "本人签收",
+        "estimated_delivery": null
+      }
+    }
+  ]
+}

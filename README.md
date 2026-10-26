@@ -1,12 +1,14 @@
 # AIPM 作品集
 
-本仓库收录一个电商客服 RAG 教学 Demo，以及基于公开资料撰写的产品反向 PRD 分析。
+本仓库收录电商客服 RAG 到 Agent 的教学原型、离线评测，以及基于公开资料撰写的产品反向 PRD 分析。
 
 ## 内容
 
 | 目录 | 内容 |
 | --- | --- |
 | [rag_demo](rag_demo/README.md) | 虚构电商“星桥优选”的命令行 RAG 客服，包含知识库、检索与生成流程、测试和学习指南。 |
+| [agent_rag_demo](agent_rag_demo/README.md) | 从 RAG 扩展的电商客服 Agent 教学原型，含模拟订单、物流和售后工具。 |
+| [evaluation/rag_to_agent](evaluation/rag_to_agent/README.md) | 120 条模拟案例、检索对照、逐题结果及已发现的权限缺口。 |
 | [reverse-prd/ChatGPT反向PRD.md](reverse-prd/ChatGPT反向PRD.md) | ChatGPT 助手产品的反向 PRD。 |
 | [reverse-prd/豆包反向PRD.md](reverse-prd/豆包反向PRD.md) | 豆包 AI 助手产品的反向 PRD。 |
 
@@ -30,3 +32,16 @@ python -m venv .venv
 ```powershell
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
+
+## 运行 Agent 原型与评测
+
+```powershell
+Set-Location agent_rag_demo
+python app.py --mode local
+python -m unittest discover -s tests -v
+Set-Location ..
+python evaluation/rag_to_agent/prepare_fixtures.py
+python evaluation/rag_to_agent/run_eval.py
+```
+
+`local` 模式与评测无需 API Key；SDK/MCP 模式的要求见 Agent 目录说明。模拟数据结果不代表真实业务成效。

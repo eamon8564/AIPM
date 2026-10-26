@@ -1,0 +1,5 @@
+# local 模式仅使用 Python 标准库，无需安装以下依赖。
+# sdk / mcp 模式需要 OpenAI Platform API Key。
+openai-agents>=0.24.0,<0.25.0
+python-dotenv>=1.2,<2.0
+mcp>=1.30.0,<1.31.0

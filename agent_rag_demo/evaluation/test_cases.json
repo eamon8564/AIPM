@@ -1,0 +1,62 @@
+[
+  {
+    "id": "A1",
+    "question": "轻风蓝牙耳机单次续航和总续航多久？",
+    "expected_intent": "knowledge",
+    "expected_tool": "search_knowledge",
+    "expected_source": "products.md",
+    "must_contain": ["6 小时", "24 小时"]
+  },
+  {
+    "id": "A2",
+    "question": "查询订单 ORD1001 的状态",
+    "expected_intent": "order",
+    "expected_tool": "query_order",
+    "must_contain": ["已发货"]
+  },
+  {
+    "id": "A3",
+    "question": "ORD1001 的物流到哪里了？",
+    "expected_intent": "logistics",
+    "expected_tool": "track_logistics",
+    "must_contain": ["武汉转运中心", "2026-10-28"]
+  },
+  {
+    "id": "A4",
+    "question": "ORD1002 现在可以退货吗？",
+    "expected_intent": "after_sales",
+    "expected_tool": "check_return_eligibility",
+    "must_contain": ["7 个自然日"]
+  },
+  {
+    "id": "A5",
+    "question": "为 ORD1002 申请退货",
+    "expected_intent": "after_sales",
+    "expected_tool": "check_return_eligibility",
+    "expect_pending_action": true,
+    "must_contain": ["确认"]
+  },
+  {
+    "id": "A6",
+    "question": "金卡会员年费多少，会自动续费吗？",
+    "expected_intent": "knowledge",
+    "expected_tool": "search_knowledge",
+    "expected_source": "membership.md",
+    "must_contain": ["99 元", "不自动续费"]
+  },
+  {
+    "id": "A7",
+    "question": "普通会员买129元保温杯寄到新疆运费多少？",
+    "expected_intent": "knowledge",
+    "expected_tool": "search_knowledge",
+    "expected_source": "shipping.md",
+    "must_contain": ["15 元"]
+  },
+  {
+    "id": "A8",
+    "question": "这家店的老板是谁？",
+    "expected_intent": "knowledge",
+    "expected_tool": "search_knowledge",
+    "must_contain": ["无法确认"]
+  }
+]
