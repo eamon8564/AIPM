@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Q1",
+    "question": "购买商品后多少天内可以申请退货？",
+    "expected_answer": "签收次日起 7 个自然日内可申请无理由退货，不是从付款日计算；须保持商品完好、配件赠品原包装齐全且不影响二次销售，定制刻字等商品有例外。",
+    "expected_source": "returns.md"
+  },
+  {
+    "id": "Q2",
+    "question": "轻风蓝牙耳机单次续航和总续航分别多久？",
+    "expected_answer": "单次约 6 小时，配合充电盒总续航约 24 小时，数据基于 50% 音量测试。",
+    "expected_source": "products.md"
+  },
+  {
+    "id": "Q3",
+    "question": "普通会员买 129 元保温杯寄到新疆，运费多少？",
+    "expected_answer": "订单实付商品金额 129 元达到 99 元免基础运费门槛，但新疆另收 15 元附加费，因此运费合计 15 元。",
+    "expected_source": "shipping.md"
+  },
+  {
+    "id": "Q4",
+    "question": "退货验收通过后多久退款到账？",
+    "expected_answer": "仓库验收通过后 2 个工作日内发起退款，之后支付渠道预计 1～3 个工作日到账，原路退回；不是保证 2 天到账。",
+    "expected_source": "returns.md"
+  },
+  {
+    "id": "Q5",
+    "question": "金卡会员年费是多少，会自动续费吗？",
+    "expected_answer": "年费 99 元，自支付成功起有效 365 天，默认不自动续费。",
+    "expected_source": "membership.md"
+  },
+  {
+    "id": "Q6",
+    "question": "现货付款后多久发货，普通地区预计几天送达？",
+    "expected_answer": "付款成功后 48 小时内发货，普通地区发货后预计 2～5 天送达，极端天气可能延迟。",
+    "expected_source": "shipping.md"
+  },
+  {
+    "id": "Q7",
+    "question": "晨光保温杯可以放入微波炉加热吗？",
+    "expected_answer": "不能放入微波炉。",
+    "expected_source": "products.md"
+  },
+  {
+    "id": "Q8",
+    "question": "金卡会员购买晨光保温杯可以免费刻字吗？",
+    "expected_answer": "根据现有知识库无法确认。文档没有说明金卡会员是否享受保温杯免费刻字，应建议联系人工客服，不能根据会员权益或定制商品退货例外推断。",
+    "expected_source": null
+  }
+]
